@@ -1,10 +1,12 @@
 package MultiThreading.DiningPhilosophers;
-
+/**
+ * deadlock situation
+ */
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DeadlockSituation {
-	
+	//3 phiosophers
 	public static int size = 3;
 	
 	public static int leftOf(int i) {
